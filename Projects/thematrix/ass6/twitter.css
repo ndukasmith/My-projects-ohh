@@ -1,0 +1,85 @@
+/* twitter.css */
+
+/* Reset default browser styles */
+body, h1, h5, p, button, input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-section h5 {
+    cursor: pointer;
+}
+
+.main-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn button img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.or {
+    text-align: center;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+}
+
+p a {
+    color: #1da1f2;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

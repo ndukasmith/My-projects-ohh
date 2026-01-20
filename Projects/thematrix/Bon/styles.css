@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  #fadeText, #hideShowText, #slideDownContent {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+  }
+  
+  #slideDownContent {
+    display: none; /* Hide initially for the slide-down effect */
+  }
+  
+
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  /* Existing styles... */
+
+h1 {
+    color: #121010;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  h3{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+  }
+  
+  /* Existing styles... */
+
+button {
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #cf0d11;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e9e65b;
+  }
+
+
+#valInput {
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+
+}
+#valButton{
+margin-top: -30px;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+}
+#appendButton{
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#appendButton1{
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+  
+}
+#fadeInButton{
+
+margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+#slideDownButton{
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}

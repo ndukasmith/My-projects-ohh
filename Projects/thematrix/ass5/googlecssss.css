@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #container {
+    width: 80%;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  #header {
+    text-align: center;
+  }
+  
+  #header img {
+    width: 200px;
+  }
+  
+  #content {
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #search {
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #search input {
+    width: 400px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  #copy {
+    margin-top: 10px;
+  }
+  

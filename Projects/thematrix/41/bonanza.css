@@ -1,0 +1,14 @@
+
+/* Basic styles for the interactive elements */
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    }
+    
+    .hidden {
+    display: none;
+    }
+    
+    /* Add more styles as needed based on your wireframe */

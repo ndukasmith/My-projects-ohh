@@ -1,0 +1,44 @@
+#signupForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#signupForm input[type="text"],
+#signupForm input[type="email"],
+#signupForm input[type="password"],
+#signupForm select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#signupForm input[type="text"]:nth-child(odd),
+#signupForm input[type="email"]:nth-child(odd) {
+    margin-right: 10px;
+}
+
+#signupForm label {
+    margin-top: 10px;
+}
+
+#signupForm button {
+    padding: 10px 20px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signupForm button:hover {
+    background-color: #365899;
+}
+
+/* Birthday select styles */
+#month, #day, #year {
+    display: inline-block;
+}
+
+/* Add additional styles as needed */

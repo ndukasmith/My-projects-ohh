@@ -1,0 +1,191 @@
+* {
+	list-style: none;
+}
+
+a {
+	color: blue;
+}
+
+#container {
+	width: 1000px;
+	background-color: rgb(238,238,238);
+	display: flex;
+}
+
+#leftContainer {
+	margin: 0px 0px 0px 20px;
+	display: flex;
+	flex-direction: column;
+	width: 24%;
+}
+
+#middleContainer {
+	margin: 0px 0px 0px 20px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(238,238,238);
+	width: 50%;
+}
+
+#rightContainer {
+	margin: 0px 0px 0px 20px;
+	background-color: rgb(238,238,238);
+	display: flex;
+	flex-direction: column;
+	width: 25%;			
+}
+
+#leftUpperDiv {
+	margin: 3px 0px 15px 30px;
+}
+
+#craig {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+
+#leftBottomDiv {
+	background-color: rgb(221,221,221);
+	width: 92%;	
+    margin: 0px 0px 0px -6px;
+}
+
+#listings {
+	padding: 8px 0px 20px 0px;
+    text-align: center;
+}
+
+.text {
+	background-color: rgb(238,238,238);
+	line-height: 155%;
+    margin: 0px 5px 0px 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#search {
+	background-color: rgb(204,204,204);
+	width: 85%;
+    margin: 0px 0px 0px 10px;
+    padding: 8px 0px 10px 11px;
+}
+
+#search span {
+	font-weight: bold;
+	background-color: rgb(238,238,238);
+	font-size: 21px;
+}
+
+#search input {
+    width: 67%;
+    margin: 0px 0px 0px 3px;
+}
+
+#search select {
+    border-radius: 7px;
+}
+
+#search button {
+    border-radius: 7px;
+    background-color: white;
+}
+
+#feedback {
+	text-align: center;
+}
+
+.feedbackText {
+	margin: 25px;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#questions {
+	background-color: rgb(238,238,238);
+    margin: 25px 18px;
+    padding: 3px 0px;
+}
+
+#middleContainerHeader {
+	font-weight: bold;
+    font-size: 32px;
+    background-color: rgb(221,221,221);
+    width: 78%;
+    text-align: center;
+    margin: 0px 0px 0px 3px;
+}
+
+#middleContainerMainContainer {
+	display: flex;
+	flex-direction: row;
+}
+
+#firstList {
+	margin: 0px 0px 0px -40px;
+}
+
+.listHeader {
+	background-color: rgb(221,221,221);
+	margin: 2px auto;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 2px;
+}
+
+.listItem {
+	background-color: white;
+    margin: 2px auto;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.secondListHeader {
+	margin: 10px 0px 0px 0px;
+}
+
+.sixthListItem {
+	margin: 30px 0px 0px 0px;
+}
+
+#lastListItemLeftCol {
+	margin: 30px 0px 0px 0px;
+	background-color: rgb(238,238,238);
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.background {
+	background-color: rgb(238,238,238);
+}
+
+#selectDiv {
+	margin: 10px 0px 23px 0px;
+}
+
+#selectDiv select {
+	border-radius: 5px;
+}
+
+#selectDiv button {
+	border-radius: 5px;
+	background-color: white;
+}
+
+#secondList {
+	display: flex;
+	flex-direction: row;
+}
+
+#bottomRightContainer {
+	margin: -16px 0px 50px -72px;
+}
+
+#jobs {
+	padding: 2px 0px 2px 15px;
+}
